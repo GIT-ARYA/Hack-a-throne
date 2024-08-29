@@ -1,0 +1,24 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;}
+    .centerit{
+        text-align: center;
+        margin: 15px;}
+    .headerimg{
+        background: url('background.jpg');}
+    .imgedit{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        transition-property: all;
+        transition-duration: 1s;}
+    .panda{
+        transition-property: all;
+        transition-duration: 1s;
+        border: none;
+        border-radius: 20px;}
+    .panda:hover{
+        transform: scale(1.1);
+        margin: 40px;}
